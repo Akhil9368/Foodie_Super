@@ -18,6 +18,12 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap"
         rel="stylesheet">
 
+       <!-- Pre Load images  -->
+
+       <link rel="preload" as="image" href="./assets/images/hero-banner-bg.png" media="min-width(768px)">
+       <link rel="preload" as="image" href="./assets/images/hero-banner.png" media="min-width(768px)">
+       <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+
 </head>
 
 <body>
@@ -64,6 +70,45 @@
     </div>
 </header>
 
+<!-- Search box -->
+<div class="search-container " data-search-container>
+    <div class="search-box">
+        <input type="search" name="search" id="" aria-label="Search here" class="search-input" placeholder="Type keyword here ...">
+        <button class="search-submit" aria-label="Submit search" data-search-submit-btn>
+            <ion-icon name="search-outline"></ion-icon>
+        </button>
+    </div>
+    <button class="search-close-btn" aria-label="Cancel search" data-search-close-btn>
+        
+    </button>
+</div>
+
+
+
+<!-- Main Section -->
+<main>
+    <article>
+        <section class="hero" id="home" style="background-image: url(./assets/images/hero-bg.jpg);">
+        <div class="container">
+            <div class="hero-content">
+                <p class="hero-subtitle">Eat Sleep And</p>
+                <h2 class="h1 hero-title">Super delicious Burger in Your town!</h2>
+                <p class="hero-text">
+                    Food is any substance Consumed to 
+                    provide nutritional support for an organism.
+                </p>
+                <button class="btn">Book a Table</button>
+
+            </div>
+            <figure class="hero-banner">
+                <img src="./assets/images/hero-banner-bg.png" width="820" height="716" loading="lazy" alt="" class="w-100 hero-img-bg">
+
+                <img src="./assets/images/hero-banner.png" width="700" height="637" alt="Burger" class="w-100 hero-img-bg">
+            </figure>
+        </div>
+        </section>
+    </article>
+</main>
 
     <script src="./assets/js/script.js"></script>
     <!-- IonIcon link -->

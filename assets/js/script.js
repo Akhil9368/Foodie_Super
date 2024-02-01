@@ -27,3 +27,23 @@ window.addEventListener("scroll",function(){
     header.classList.remove("active");
   }
 } )
+
+
+const searchContainer = document.querySelector("[data-search-container]")
+const searchBtn = document.querySelector("[data-search-btn]")
+const searchSubmission = document.querySelector("[data-search-submit-btn]");
+const searchCloseBtn = document.querySelector("[data-search-close-btn]");
+
+
+const searchBoxElem = [searchContainer,searchBtn,searchSubmission,searchCloseBtn];
+
+for (let i = 0; i < searchBoxElem.length; i++) {
+  searchBoxElem[i].addEventListener("click",function(){
+    console.log(searchBoxElem[i]);
+    searchContainer.classList.toggle("active");
+   
+    document.body.classList.toggle("active");
+  });
+  
+}
+
