@@ -209,7 +209,7 @@ body.active {
     gap: 10px;
   
     overflow-x: auto;
-    /* scroll-snap-type: inline mandatory; */
+    scroll-snap-type: inline mandatory;
     padding-block-end: 40px;
     scrollbar-color: auto;
 }
