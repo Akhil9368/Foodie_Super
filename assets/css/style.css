@@ -221,7 +221,7 @@ body.active {
     
 }
 .has-scrollbar::-webkit-scrollbar-thumb{
-    border: 6px solid var(--cultured);
+    border: 7px solid var(--cultured);
     border-radius: 50px;
    
 }
@@ -577,6 +577,11 @@ body.active {
     margin-block: 14px;
 }
 .promo-card:hover .card-icon path{fill: var(--white);}
+.promo-card:hover .card-text{ color: var(--white);}
+.promo-card:hover h2{
+    color: var(--white);
+
+}
 .promo-card .card-banner{
     max-width: max-content;
     margin-inline: auto;
