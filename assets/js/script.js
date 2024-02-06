@@ -47,3 +47,14 @@ for (let i = 0; i < searchBoxElem.length; i++) {
   
 }
 
+
+//  Demo 
+ var x = 10;
+ function getName(){
+  console.log("Akhil Soni");
+ }
+
+ getName();
+ console.log(x)
+ console.log(getName)
+
