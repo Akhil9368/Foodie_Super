@@ -214,14 +214,16 @@ body.active {
     scrollbar-color: auto;
 }
 .has-scrollbar::-webkit-scrollbar{height: 12px;}
-.has-scrollbar::-webkit-scrollbar-button{width: calc(25%-40px);}
+.has-scrollbar::-webkit-scrollbar-button{width: calc(25%-45px)}
 .has-scrollbar::-webkit-scrollbar-track{
     outline: 2px solid var(--deep-saffron);
     border-radius: 50px;
+    
 }
 .has-scrollbar::-webkit-scrollbar-thumb{
-    border: 3px solid var(--cultured);
+    border: 6px solid var(--cultured);
     border-radius: 50px;
+   
 }
 /* navbar */
 .header-btn-group .btn {
