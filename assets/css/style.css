@@ -594,4 +594,32 @@ body.active {
 }
 
 
+/* About */
+.abs-img{
+    position: absolute;
+    transform: scale(1);
+}
+.scale-up-anim{
+    animation: scaleUp 3s linear infinite alternate;
+}
+@keyframes scaleUp{
+    0%{transform: scale(0.5);}
+    100%{transform: scale(0.8);}
+}
+.about{
+    text-align: center;
+}
+.about-banner{
+    position: relative;
+    aspect-ratio: 1/0.9;
+}
+.about-img{
+    max-width: max-content;
+    margin-inline: auto;
+}
+.about-banner .abs-img{
+    top: 0;
+    /* left:90px; */
+}
+
 
