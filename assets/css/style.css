@@ -621,5 +621,15 @@ body.active {
     top: 0;
     /* left:90px; */
 }
-
+.about-content{
+    margin-block:2.5rem;
+}
+.about .section-tittle{
+    max-width: 15ch;
+    margin-block: 40px 10px;
+    margin-inline: auto;
+}
+.section-tittle .span{
+    color: var(--deep-saffron);
+}
 
