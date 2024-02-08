@@ -633,3 +633,42 @@ body.active {
     color: var(--deep-saffron);
 }
 
+.about-list{
+    margin-block: 20px 30px;
+ 
+   
+}
+/* .about-content{
+    display: flex;
+    flex-direction: column;
+} */
+.about-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.about-content .btn{
+    margin-inline: auto;
+}
+.about-item:not(:last-child){margin-block-end: 10px;}
+
+.about-item ion-icon{
+    position: relative;
+    background-color: var(--deep-saffron);
+    border-radius: 50%;
+    color: var(--white);
+    font-size: 1.6rem;
+  --ionicon-stroke-width:70px;
+    margin-top: 5px;
+  
+     
+}
+
+.about-items .span{
+    color: var(--rich-black-fogra-29);
+    font-family: var(--ff-rubik);
+    font-weight: var(--fw-500);
+   
+}
+
