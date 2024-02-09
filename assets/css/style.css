@@ -720,10 +720,38 @@ body.active {
 }
 
 .food-menu-card{
-    background-color: var(--white);
-    padding: 40px;
-    box-shadow: var(--shadow-2);
-}
+   
+    padding: 10px;
+   
 .food-menu-card:focus-within{
     outline: 1px auto --webkit-focus-ring-color;
+}
+.card-banner{
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    background-color: var(--white);
+    /* margin-block: 20px; */
+    padding-block:50px ;
+    box-shadow: var(--shadow-2);
+}
+}
+.card-banner img{
+    margin-inline: auto;
+}
+.card-banner .wrapper{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   font-family: var(--ff-rubik);
+    font-weight: var(--fw-600);
+    font-size: 1.8rem;
+}
+
+
+.rating-wrapper{
+    position: relative;
+    display: flex;
+    color: var(--deep-saffron);
+
 }
