@@ -746,6 +746,7 @@ body.active {
    font-family: var(--ff-rubik);
     font-weight: var(--fw-600);
     font-size: 1.8rem;
+    padding-bottom: 10px;
 }
 
 
@@ -754,4 +755,35 @@ body.active {
     display: flex;
     color: var(--deep-saffron);
 
+}
+
+.price-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    font-weight: var(--fw-600);
+    padding-top: 10px;
+}
+.price-text{
+    color: var(--cinnabar);
+}
+.price{
+    color: var(--deep-saffron);
+}
+.del{
+    color: var(--gray-x-11-gray);
+}
+.add-button{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+    right: 18px;
+    gap: 7px;
+    
+}
+.add-button ion-icon{
+    background-color: var(--deep-saffron);
+    padding: 5px;
 }
