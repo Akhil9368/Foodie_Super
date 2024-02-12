@@ -780,10 +780,25 @@ body.active {
     align-items: center;
     position: relative;
     right: 18px;
+    margin-block: 10px;
     gap: 7px;
     
 }
 .add-button ion-icon{
     background-color: var(--deep-saffron);
     padding: 5px;
+    color: var(--white);
+    font-weight: var(--fw-700);
+    font-size: 2rem;
+}
+
+.badge{
+  position: relative;
+    top: -346px;
+    left: -116px;
+    margin-block: 10px;
+    background-color: var(--cinnabar);
+    display: inline-block;
+    width: 60px;
+    color: white;
 }

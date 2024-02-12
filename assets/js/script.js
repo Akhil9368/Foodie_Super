@@ -34,6 +34,13 @@ const searchBtn = document.querySelector("[data-search-btn]")
 const searchSubmission = document.querySelector("[data-search-submit-btn]");
 const searchCloseBtn = document.querySelector("[data-search-close-btn]");
 
+var incDec = document.getElementsByClassName("inc-dec");
+console.log(incDec)
+let addBtn = document.getElementById("addBtn");
+let subBtn = document.getElementById("subBtn");
+
+console.log(addBtn ," + ", subBtn )
+
 
 const searchBoxElem = [searchContainer,searchBtn,searchSubmission,searchCloseBtn];
 
@@ -46,15 +53,16 @@ for (let i = 0; i < searchBoxElem.length; i++) {
   });
   
 }
+var count = 0;
 
 
-//  Demo 
- var x = 10;
- function getName(){
-  console.log("Akhil Soni");
- }
-
- getName();
- console.log(x)
- console.log(getName)
-
+addBtn.addEventListener('click',function(){
+  console.log("Hello")
+  count++;
+  console.log(count)
+  incDec.innerHTML = count;
+})
+subBtn.addEventListener("click", function(){
+  count--;
+  incDec.innerHTML= count;
+})
