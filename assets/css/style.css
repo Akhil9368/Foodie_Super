@@ -853,3 +853,35 @@ max-width: 18ch;
 top: 360px;
     transform: translateX(-180px);
 }
+.testi{
+    text-align: center;
+}
+.testi .section-text{
+    margin-block: 20px 20px;
+}
+.testi-card{
+    position: relative;
+ background-color: var(--white);
+ text-align: center;
+ padding: 40px 30px;
+ box-shadow: var(--shadow-1);
+ z-index: 1;
+}
+.profile-wrapper{
+    display: flex;
+    gap: 10px;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+.testi-text{
+    text-align: start;
+    margin-block:15px 15px ;
+}
+.profile-wrapper img{
+    border-radius: 50%;
+}
+.testi-item{
+    min-width: 100%;
+    scroll-snap-align: start;
+}
