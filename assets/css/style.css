@@ -842,3 +842,14 @@ max-width: 18ch;
     top: 350px;
     left: 0;
 }
+.delivery-content .section-text{
+    margin-block: 20px 20px ;
+}
+.delivery-banner{
+    margin-block:20px 20px;
+}
+.delivery-img{
+    position: absolute;
+top: 360px;
+    transform: translateX(-180px);
+}
