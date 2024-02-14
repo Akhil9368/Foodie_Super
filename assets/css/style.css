@@ -1056,3 +1056,52 @@ height: 35px;
     font-size: var(--fs-2);
     max-width: 10ch;
 }
+.blog-list{
+    display: grid;
+    gap: 10px;
+}
+.blog-card{
+    background-color: var(--white);
+    box-shadow: var(--shadow-2);
+}
+.blog .section-content{
+    text-align: center;
+}
+.card-content{
+    margin-inline: 15px 10px;
+}
+.section-content .section-text{
+    margin-block: 12px 12px;
+}
+.card-meta-link ion-icon{
+    color: var(--tangerine);
+    font-size: 1.5rem;
+    --ionicon-stroke-width: 60px;
+}
+.card-content .card-meta-link{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.card-meta-wrapper{
+    margin-block: 0px 20px
+}
+.card-content .card-meta-wrapper{
+    display: flex;
+    gap: 60px;
+ }
+ .card-text{
+    margin-block: 15px 15px;
+ }
+ .btn-link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--black);
+    font-weight: var(--fw-500);
+    color: var(--black);
+    padding-bottom: 14px;
+  
+}
+
+ 
