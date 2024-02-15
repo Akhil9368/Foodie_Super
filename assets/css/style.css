@@ -1159,3 +1159,18 @@ height: 35px;
     letter-spacing: -1px;
     margin-block-end: 20px;
 }
+.footer-list-item{
+    margin-block: 0px 10px;
+}
+.footer-list-tittle::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: calc(100% + 15px);
+    background-color: var(--deep-saffron);
+    width: 40px;
+    height: 4px;
+    border-inline-end: 5px solid var(--deep-saffron);
+    box-shadow: inset -5px 0 0 var(--white);
+}
