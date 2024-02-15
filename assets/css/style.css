@@ -1204,8 +1204,8 @@ textarea.input-field{
     background-image: url(../images/delivery-boy.svg);
     position: absolute;
     bottom: -2px;
-    width: 195px;
-    height: 165px;
+    width: 178px;
+    height: 147px;
     
     background-repeat: no-repeat;
     animation: cycle 15s linear infinite;
