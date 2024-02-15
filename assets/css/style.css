@@ -1222,6 +1222,9 @@ textarea.input-field{
     58%{
         left: 53%;
     }
+    0%{
+        left: -130px;
+    }
 }
 .footer-bottom{
     margin-block: 20px;
