@@ -57,7 +57,7 @@ var count = 0;
 
 
 const deliveryBoyImage = document.querySelector("[delivery-boy-cycle]");
-let deliveryBoyMove = -90;
+let deliveryBoyMove = -50;
 let lastScrollPos = 0;
 window.addEventListener("scroll", function(){
   let deliveryBoyTopPos = deliveryBoyImage.getBoundingClientRect().top;
