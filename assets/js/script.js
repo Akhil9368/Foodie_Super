@@ -56,13 +56,20 @@ for (let i = 0; i < searchBoxElem.length; i++) {
 var count = 0;
 
 
-addBtn.addEventListener('click',function(){
-  console.log("Hello")
-  count++;
-  console.log(count)
-  incDec.innerHTML = count;
-})
-subBtn.addEventListener("click", function(){
-  count--;
-  incDec.innerHTML= count;
+const deliveryBoyImage = document.querySelector("[delivery-boy-cycle]");
+let deliveryBoyMove = 0;
+let lastScrollPos = 0;
+window.addEventListener("scroll", function(){
+  let deliveryBoyTopPos = deliveryBoyImage.getBoundingClientRect().top;
+  if(deliveryBoyTopPos<500 && deliveryBoyTopPos>-250){
+    let activeScrollPos = window.scrollY;
+    if(lastScrollPos<activeScrollPos){
+      deliveryBoyMove +=2;
+    }else{
+      deliveryBoyMove -=2;
+    }
+
+    lastScrollPos = activeScrollPos;
+    deliveryBoyImage.style.transform = `translateX(${deliveryBoyMove}px)`;
+  }
 })

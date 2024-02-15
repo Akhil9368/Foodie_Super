@@ -944,6 +944,7 @@ body.active {
 .delivery-img {
     position: absolute;
     top: 0px;
+    left: -120px;
     transform: translateX(-180px);
 }
 
@@ -1141,10 +1142,12 @@ height: 35px;
     display: flex;
     gap: 10px;
 }
+
 .footer-social .social-link{
     background-color: var(--dark-orange);
     color: var(--white);
     padding: 10px;
+   
 }
 .footer-list{
     margin-block: 15px 15px;
