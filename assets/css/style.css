@@ -1174,3 +1174,48 @@ height: 35px;
     border-inline-end: 5px solid var(--deep-saffron);
     box-shadow: inset -5px 0 0 var(--white);
 }
+.footer-form{
+    background-color: var(--white);
+    padding: 30px;
+    border: 1px solid var(--cultured);
+    box-shadow: var(--shadow-2);
+}
+.input-wrapper{
+    display: grid;
+    gap: 10px;
+    margin-block-end: 10px;
+}
+.input-field{
+    color: var(--spanish-gray);
+    font-size: var(--fs-4);
+    border: 1px solid var(--cultured);
+    padding: 8px 12px;
+}
+textarea.input-field{
+    min-height: 50px;
+    max-height: 150px;
+    height: 100px;
+    resize: vertical;
+    margin-block-end: 10px;
+}
+
+.footer-top::after{
+    content: "";
+    background-image: url(../images/delivery-boy.svg);
+    position: absolute;
+    bottom: -2px;
+    width: 195px;
+    height: 165px;
+    
+    background-repeat: no-repeat;
+    animation: cycle 15s linear infinite;
+
+}
+@keyframes cycle{
+    0%{
+        left: -160px;
+    }
+    100%{
+        left: 100%;
+    }
+}
