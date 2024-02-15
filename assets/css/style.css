@@ -1208,6 +1208,7 @@ textarea.input-field{
     position: absolute;
     bottom: -2px;
     width: 178px;
+   
     height: 147px;
     
     background-repeat: no-repeat;
@@ -1218,8 +1219,8 @@ textarea.input-field{
     0%{
         left: -160px;
     }
-    100%{
-        left: 100%;
+    97%{
+        left: 68%;
     }
 }
 .footer-bottom{
