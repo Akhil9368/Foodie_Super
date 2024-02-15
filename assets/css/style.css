@@ -1219,3 +1219,8 @@ textarea.input-field{
         left: 100%;
     }
 }
+.footer-bottom{
+    margin-block: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
