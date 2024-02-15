@@ -1216,11 +1216,11 @@ textarea.input-field{
 
 }
 @keyframes cycle{
-    10%{
-        left: 6px;
+    5%{
+        left: -30px;
     }
-    70%{
-        left: 64%;
+    60%{
+        left: 60%;
     }
 }
 .footer-bottom{
