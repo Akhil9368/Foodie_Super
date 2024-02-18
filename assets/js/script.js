@@ -19,12 +19,16 @@ for (let i = 0; i < navbarLinks.length; i++) {
 
 
 const header = document.querySelector("[data-header]");
+const backToTop = document.querySelector("[back-to-top-btn]")
+
 window.addEventListener("scroll",function(){
   if(this.window.scrollY>=100){
     header.classList.add("active");
+    backToTop.classList.add("active");
   }
   else{
     header.classList.remove("active");
+    backToTop.classList.remove("active")
   }
 } )
 
@@ -73,3 +77,4 @@ window.addEventListener("scroll", function(){
     deliveryBoyImage.style.transform = `translateX(${deliveryBoyMove}px)`;
   }
 })
+
