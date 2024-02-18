@@ -1473,3 +1473,12 @@ textarea.input-field{
         max-width:45%
     }
 }
+@media(min-width:1220px){
+    .container{
+        max-width: 1150px;
+    }
+    .card-banner .badge{
+        top: -33rem;
+        left: -12rem;
+    }
+}
